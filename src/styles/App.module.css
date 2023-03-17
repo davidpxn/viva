@@ -15,3 +15,11 @@
 .cards > * {
   margin-right: 24px;
 }
+
+.version {
+  font-size: 14px;
+  color: #056954;
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+}

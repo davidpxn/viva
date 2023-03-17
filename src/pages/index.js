@@ -27,6 +27,7 @@ export default function App() {
           <Card title="Raki" value={58.1} metric="%" />
           <Card title="Hljóð" value={5.1} metric="dB" />
         </section>
+        <p className={styles.version}>V.0.1</p>
       </main>
     </>
   );
