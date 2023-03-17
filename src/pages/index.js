@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/App.module.css";
 import Card from "@/components/Card/Card";
+import Clock from "@/components/Clock/Clock";
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
           <Card title="Hljóð" value={5.1} metric="dB" />
         </section>
         <p className={styles.version}>V.0.1</p>
+        <Clock />
       </main>
     </>
   );
