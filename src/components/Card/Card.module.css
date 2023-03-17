@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  width: fit-content;
+  background: #ffffff;
+  border-radius: 16px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 400;
+  color: #2e5046;
+  padding-bottom: 8px;
+}
+
+.valueContainer {
+  display: flex;
+  align-items: baseline;
+}
+
+.value {
+  font-weight: 700;
+  font-size: 68px;
+  color: #056954;
+}
+
+.metric {
+  font-weight: 700;
+  font-size: 48px;
+  color: #056954;
+}

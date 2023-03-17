@@ -1,0 +1,17 @@
+.main {
+  padding: 32px 24px 24px 24px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  padding-bottom: 24px;
+}
+
+.cards {
+  display: flex;
+}
+
+.cards > * {
+  margin-right: 24px;
+}
